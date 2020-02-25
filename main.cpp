@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void power(int base, int exp);
+int power(int base, int exp);
 
 int main()
 {
@@ -16,7 +16,7 @@ int main()
     return 0;
 }
 //--
-void power(int base, int exp)
+int power(int base, int exp)
 {
     int result = 1;
     for(int i = 0;i < exp;i++)
@@ -24,5 +24,5 @@ void power(int base, int exp)
         result = result * base;
     }
 
-    cout<<result<<endl;
+    return result;
 }
