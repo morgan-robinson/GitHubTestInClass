@@ -2,7 +2,11 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 void power(double base, int exp);
+=======
+int power(int base, int exp);
+>>>>>>> return_type
 
 int main()
 {
@@ -16,7 +20,11 @@ int main()
     return 0;
 }
 //--
+<<<<<<< HEAD
 void power(double base, int exp)
+=======
+int power(int base, int exp)
+>>>>>>> return_type
 {
     int result = 1;
     for(int i = 0;i < exp;i++)
@@ -24,5 +32,5 @@ void power(double base, int exp)
         result = result * base;
     }
 
-    cout<<result<<endl;
+    return result;
 }
